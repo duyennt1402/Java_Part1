@@ -16,7 +16,7 @@ public class Main {
         Scanner sc3 = new Scanner(System.in);
         System.out.println("input gender:");
         String gender = sc3.nextLine();
-        Cityzen citizen1= new Cityzen(name, age,gender);
+        Cityzen citizen1 = new Cityzen(name, age, gender);
         citizen1.showInfo();
 
     }
